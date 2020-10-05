@@ -27,9 +27,7 @@ public class InterfazGraficaAdivinApp extends Application{
 	private Label labelCajaInicial;
 	private Button botonComprobarTextoInicial;
 	
-	private Alert victoria;
-	private Alert derrota;
-	private Alert error;
+	private Alert victoria,derrota,error;
 	
 	
 	public void start(Stage primaryStage) throws Exception {
