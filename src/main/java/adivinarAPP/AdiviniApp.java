@@ -6,8 +6,8 @@ public class AdiviniApp {
 
 
 	AdiviniApp() {
-		//numeroSelecionado =generadorNumero();
-		numeroSelecionado=80;
+		numeroSelecionado =generadorNumero();
+		
 	}
 
 	public boolean comprobarNumero(int _numero) {
