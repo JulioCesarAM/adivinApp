@@ -42,7 +42,6 @@ public class InterfazGraficaAdivinApp extends Application{
 		labelCajaInicial =new Label();
 		labelCajaInicial.setText("introduce un numero del uno al 100");
 		labelCajaInicial.setMaxWidth(200);
-		labelCajaInicial.setMaxHeight(200);
 		labelCajaInicial.setAlignment(Pos.TOP_CENTER);
 		
 	}
@@ -154,8 +153,8 @@ public class InterfazGraficaAdivinApp extends Application{
 		VBox root = new VBox();
 		root.setSpacing(5);
 		root.setAlignment(Pos.CENTER);
-		for (Node i:objetos) {
-			root.getChildren().add(objetos[aux++]);	
+		for (Node componentes:objetos) {
+			root.getChildren().add(componentes);	
 		}
 		return root;
 	}
